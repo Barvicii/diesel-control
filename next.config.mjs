@@ -1,7 +1,10 @@
 import withPWA from 'next-pwa';
 
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  // Deshabilitar Turbopack para compatibilidad con next-pwa
+  turbopack: false,
+};
 
 export default withPWA({
   dest: 'public',
