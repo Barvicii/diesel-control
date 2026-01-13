@@ -13,10 +13,6 @@ export const metadata: Metadata = {
     statusBarStyle: "default",
     title: "Diesel Control",
   },
-  icons: {
-    icon: '/icon-192x192.png',
-    apple: '/icon-192x192.png',
-  },
 };
 
 export const viewport: Viewport = {
